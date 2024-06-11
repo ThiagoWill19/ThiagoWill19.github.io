@@ -85,6 +85,7 @@ nav {
 
 .content p a {
   color: #633bbc;
+  text-decoration: none;
 }
 
 .content ul {
@@ -106,7 +107,7 @@ nav {
 }
 
 .content a {
-  text-decoration: none;
+  text-decoration: underline;
   font-size: 1.2rem;
   color: #ed5636;
   line-height: 28px;
@@ -114,6 +115,7 @@ nav {
 
 .content strong {
   color: #633bbc;
+  font-weight: lighter;
 }
 
 aside {
@@ -135,6 +137,11 @@ aside {
 
 aside * {
   animation: entering 0.7s ease-in-out;
+}
+
+aside .btn {
+  text-decoration: none;
+  color: #ed5636;
 }
 
 .foto-perfil {
